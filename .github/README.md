@@ -45,11 +45,6 @@ To access the layout use [Figma](https://www.figma.com/file/9TlOcj6l7D05fZhU12xW
 - [React-Leaflet](https://react-leaflet.js.org/)
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.io/)
-- [xxxxx](xxxxx)
-- [xxxxx](xxxxx)
-- [xxxxx](xxxxx)
-- [xxxxx](xxxxx)
-- [xxxxx](xxxxx)
 
 
 ## :information_source: Installing
