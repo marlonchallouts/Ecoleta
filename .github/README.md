@@ -1,16 +1,37 @@
 <img alt="Ecoleta" src="https://github.com/marlonchallouts/Ecoleta/blob/master/.github/home.png" />
 
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marlonchallouts/Ecoleta?color=%2304D361">
 
-<a id="sobre"></a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/marlonchallouts/Ecoleta">
+	
+  <a href="https://www.linkedin.com/in/marlonchallouts/">
+    <img alt="Made by Marlon Challouts" src="https://img.shields.io/badge/made%20by-Marlon%20Challouts-%2304D361">
+  </a>
 
-## :information_source: Sobre
+  <a href="https://github.com/marlonchallouts/Ecoleta/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/marlonchallouts/Ecoleta">
+  </a>
+   <a href="https://github.com/marlonchallouts/Ecoleta/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/marlonchallouts/Ecoleta?style=social">
+  </a>
+</p>
 
-O <strong>Ecoleta</strong> é um markplace que tem como objetivo ajudar as pessoas a encontrarem pontos de coletas de forma eficiente.
+
+<a id="about"></a>
+
+## :information_source: About 
+
+<strong> Ecoleta </strong> is a markplace that aims to help people find collection points efficiently.
+
+## 🔖 Layout
+
+To access the layout use [Figma](https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-(Booster)?node-id=0%3A1).
+
+<a id="technologies-used"></a>
 
 
-<a id="tecnologias-utilizadas"></a>
-
-## :rocket: Tecnologias Utilizadas
+## :rocket: Technologies Used
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -21,6 +42,74 @@ O <strong>Ecoleta</strong> é um markplace que tem como objetivo ajudar as pesso
 - [Leaflet](https://leafletjs.com/)
 - [React-Leaflet](https://react-leaflet.js.org/)
 - [React Native](https://reactnative.dev/)
+
+
+## :information_source: Installing
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) installed on your computer.
+
+From your command line:
+
+### API 
+
+```bash
+# Clone this repository
+$ git clone https://github.com/marlonchallouts/Ecoleta
+
+# Go into the repository
+$ cd Ecoleta/server
+
+# Install dependencies
+$ npm install
+
+# Run Migrates
+$ npm knex:migrate
+
+# Run Seeds
+$ npm knex:seed
+
+# Start server
+$ npm run dev
+
+# running on port 3333
+```
+
+### Front-end
+
+```bash
+# Clone this repository
+$ git clone https://github.com/marlonchallouts/Ecoleta
+
+# Go into the repository
+$ cd Ecoleta/web
+
+# Install dependencies
+$ npm install
+
+# Run
+$ npm start
+
+# running on port 3000
+```
+
+
+### Front-end
+
+```bash
+# Clone this repository
+$ git clone https://github.com/marlonchallouts/Ecoleta
+
+# Go into the repository
+$ cd Ecoleta/mobile
+
+# Install dependencies
+$ npm install
+
+# Run
+$ expo start
+
+# running on port 19002
+```
 
 
 ## :memo: License
