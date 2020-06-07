@@ -44,6 +44,12 @@ To access the layout use [Figma](https://www.figma.com/file/9TlOcj6l7D05fZhU12xW
 - [Leaflet](https://leafletjs.com/)
 - [React-Leaflet](https://react-leaflet.js.org/)
 - [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
+- [xxxxx](xxxxx)
+- [xxxxx](xxxxx)
+- [xxxxx](xxxxx)
+- [xxxxx](xxxxx)
+- [xxxxx](xxxxx)
 
 
 ## :information_source: Installing
@@ -95,7 +101,7 @@ $ npm start
 ```
 
 
-### Front-end
+### Mobile
 
 ```bash
 # Clone this repository
@@ -116,4 +122,4 @@ $ expo start
 
 ## :memo: License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
