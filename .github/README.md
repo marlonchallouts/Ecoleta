@@ -1,4 +1,6 @@
-<img alt="Ecoleta" src="https://github.com/marlonchallouts/Ecoleta/blob/master/.github/home.png" />
+<h1 align="center">
+  <img alt="Ecoleta" src="https://github.com/marlonchallouts/Ecoleta/blob/master/.github/home.png" />
+</h1>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marlonchallouts/Ecoleta?color=%2304D361">
