@@ -26,6 +26,14 @@
 
 <strong> Ecoleta </strong> is a markplace that aims to help people find collection points efficiently.
 
+
+## 💻 Screenshots
+
+<h1 align="center">
+  <img alt="Ecoleta" src="https://github.com/marlonchallouts/Ecoleta/blob/master/.github/app-screen.png" />
+</h1>
+
+
 ## 🔖 Layout
 
 To access the layout use [Figma](https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-(Booster)?node-id=0%3A1).

@@ -1,5 +1,5 @@
 /* eslint-disable class-methods-use-this */
-import { Request, Response, request } from 'express';
+import { Request, Response } from 'express';
 import knex from '../database/connection';
 
 class PointsController {
@@ -20,7 +20,7 @@ class PointsController {
 
     const serializedPoint = points.map(point => {
       return {
-        ...points,
+        ...point,
         image_url: `http://192.168.0.7:3333/uploads/${point.image}`,
       };
     });
@@ -30,6 +30,8 @@ class PointsController {
 
   async show(resquest: Request, response: Response) {
     const { id } = resquest.params;
+
+    console.log(id);
 
     const point = await knex('points').where('id', id).first();
 
@@ -47,7 +49,7 @@ class PointsController {
       .where('point_items.point_id', id)
       .select('items.title');
 
-    return response.json({ serializedPoint, items });
+    return response.json({ point: serializedPoint, items });
   }
 
   async create(resquest: Request, response: Response) {
